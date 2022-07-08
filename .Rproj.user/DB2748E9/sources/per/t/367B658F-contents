@@ -1,0 +1,8 @@
+# Save in your default directory as .Rprofile (with the "." in front, no file type)
+# you can check yours by uncommenting the two llines below - that will show you where to save.
+# setwd('C:\\Users\\goodag\\OneDrive - Press Ganey\\Personal Training\\R Training')
+# getwd()
+
+.my_onedrive_path <- "C:/Users/goodag/Press Ganey/Enterprise Analytics - DSTK/"
+
+source(paste0(.my_onedrive_path, "ea_profile.R"))
